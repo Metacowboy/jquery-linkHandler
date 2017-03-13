@@ -1,7 +1,5 @@
 # Dynamic Link Handler
 
-Note: Responses from the server are shown using the alertify js plugin.
-
 Todo:
 - [ ] Add option for custom js alerts
 - [ ] Add option for custom modal confirm
@@ -50,4 +48,20 @@ Full example (using all the features):
 				data-ajax="true"
 				data-toggle="disable_button"
 				id="enable_button">Set on</button>
+```
+
+Note: Responses from the server are shown using the alertify js plugin.
+
+The `AjaxResponseDelimiter` is used to separate the server response type from message. 
+Example server response status types are **success** and **error**.
+
+
+Example server response: **error! Invalid item ID!** will give 
+```javascript
+alertify.error('Invalid item ID!');
+```
+
+Example server response: **success! You have successfuly deleted item!** will give 
+```javascript
+alertify.success('You have successfuly deleted item!');
 ```
