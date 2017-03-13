@@ -65,3 +65,8 @@ Example server response: **success! You have successfuly deleted item!** will gi
 ```javascript
 alertify.success('You have successfuly deleted item!');
 ```
+
+Example server response: **Some message without response status type** will give 
+```javascript
+alertify.success('Some message without response status type');
+```
