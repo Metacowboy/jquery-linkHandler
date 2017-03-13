@@ -1,5 +1,10 @@
 # Dynamic Link Handler
 
+Note: Responses from the server are shown using the alertify js plugin.
+
+Todo:
+- [ ] Allow usage of custom js alerts
+
 Attributes:
 * data-link = link to resource (use link handler on this element)
 * data-ajax = true (send href as ajax request)
