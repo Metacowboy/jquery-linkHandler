@@ -3,7 +3,8 @@
 Note: Responses from the server are shown using the alertify js plugin.
 
 Todo:
-- [ ] Allow usage of custom js alerts
+- [ ] Add option for custom js alerts
+- [ ] Add option for custom modal confirm
 
 Attributes:
 * data-link = link to resource (use link handler on this element)
