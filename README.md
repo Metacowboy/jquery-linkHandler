@@ -3,6 +3,7 @@
 Todo:
 - [ ] Add option for custom js alerts
 - [ ] Add option for custom modal confirm
+- [ ] Add different REST types (GET/POST/PUT/DELETE)
 
 Attributes:
 * data-link = link to resource (use link handler on this element)
